@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body>
+    <div id="container" class="header">
+        <h1>To-Do List</h1>
+        <input type="text" id="myInput" placeholder="Add new item"><br>
+        <input type="text" id="description" name="description" placeholder="Description" maxlength="160" required><br>
+        <input type="datetime-local" id="deadline" name="deadline" ><br>
+        <button onclick="newElement()" class="addBtn">Add</button>
+      </div>
+      
+      <ul id="list">
+        <li>Finish homework</li>
+        <li>Do laundry</li>
+        <li>Exercise</li>
+      </ul>
+      <p id="demo"></p>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
